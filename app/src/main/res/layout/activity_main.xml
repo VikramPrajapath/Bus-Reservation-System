@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="176dp"
+        android:layout_height="65dp"
+        android:text="LOGIN AS ADMIN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626"></Button>
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="162dp"
+        android:layout_height="73dp"
+        android:text="LOGIN AS CUSTOMER"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773"></Button>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="343dp"
+        android:layout_height="238dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231"
+        app:srcCompat="@drawable/busimg2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="77dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635"
+        app:srcCompat="@drawable/admin" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="114dp"
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782"
+        app:srcCompat="@drawable/customers" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="332dp"
+        android:layout_height="73dp"
+        android:text=" CSE TRAVELS"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#1520A6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
